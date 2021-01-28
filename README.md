@@ -16,8 +16,9 @@ If not, the settings app will open with the home page. Unfortunately, this is th
 Add this to your package's pubspec.yaml file:
 
 ```
-dependencies:
-  system_settings: 1.0.1
+system_settings: 
+    git:
+      url: git://github.com/lev2048/system_settings_flutter
 ```
 
 Next, import the package into your dart code:
